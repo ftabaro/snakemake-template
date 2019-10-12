@@ -30,4 +30,11 @@ This repository represent a boilerplate project for Snakemake-based projects.
 * Singularity
 * Slurm
 
+## Running a pipeline
 
+These are the very general steps on how to develop a pipeline with Snakemake
+
+1. Edit rules in `Snakefile`
+2. Edit paths in `config.yml`
+3. Edit cluster configuration in `cluster-config/cluster.json`
+4. Run with: `./snakerunner config.yml`
