@@ -1,0 +1,5 @@
+channels:
+    - bioconda
+dependencies:
+    - bioconductor-methylkit=1.10.0
+

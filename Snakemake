@@ -1,0 +1,10 @@
+
+rule all:
+    input: config["result"]
+
+rule compute_result:
+    output: config["result"]
+    conda: "envs/toy.yml"
+    script:
+        "scripts/first.R"
+
