@@ -1,0 +1,20 @@
+{
+    "__default__" :
+    {
+        "jobname"   : "snakejob",
+        "time"      : "00:20:00",
+        "nitasks"   : 1,
+        "cpu"       : 1,
+        "mem"       : "100M",
+        "log"       : "logs/slurm-%j-%x.log",
+        "partition" : "test"
+    },
+    "compute_results" :
+    {
+        "jobname"   : "compute_results",   
+        "time"      : "00:20:00",
+        "cpu"       : 2,
+        "mem"       : "200G"
+    }
+}
+
