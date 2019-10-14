@@ -5,7 +5,6 @@ This repository represent a boilerplate project for Snakemake-based projects.
 ## Structure
 
 ```
-
 .
 ├── cluster-config
 │   └── cluster.json
@@ -17,7 +16,7 @@ This repository represent a boilerplate project for Snakemake-based projects.
 ├── README.md
 ├── scripts
 │   └── first.R
-├── Snakemake
+├── Snakefile
 └── snakerunner.sh
 
 4 directories, 8 files

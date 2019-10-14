@@ -3,7 +3,7 @@
     {
         "jobname"   : "snakejob",
         "time"      : "00:20:00",
-        "nitasks"   : 1,
+        "ntasks"    : 1,
         "cpu"       : 1,
         "mem"       : "100M",
         "log"       : "logs/slurm-%j-%x.log",
